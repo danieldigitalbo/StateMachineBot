@@ -7,3 +7,5 @@ How to use:
 5. With left click drag state_machine.gd to you state machine node
 6. Select the node that contains your state. For example: "Idle"
 7. With right click you click extend_node and create the code for your custom state. That's all
+
+Switch between states, call the state_machine variable then its function change_state_to(new_state:String) Example: we are in Idle and in the enter function: state_machine.change_state_to("Walk") 
