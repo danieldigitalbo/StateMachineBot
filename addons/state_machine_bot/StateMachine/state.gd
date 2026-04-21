@@ -1,7 +1,7 @@
 extends Node
 class_name State
 
-@onready var state_machine:StateMachine = owner.find_child("StateMachine")
+@onready var state_machine:StateMachine = owner.find_child("*",true,false) as StateMachine
 
 func enter():pass
 func update(_delta:float):pass
